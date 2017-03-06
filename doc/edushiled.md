@@ -1,6 +1,10 @@
 # EduShiled
 
-## Piny
+<p align="center">
+<img src="https://raw.githubusercontent.com/bastlirna/arduino-akademie/master/doc/edushiled.png" alt="EduShield">
+</p>
+
+## Zapojení
 
 | Pin     | Funkce  | Poznámka |
 | ------- | ---- | ---- |
