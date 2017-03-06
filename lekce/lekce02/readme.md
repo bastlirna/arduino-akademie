@@ -26,7 +26,7 @@
 
 Napište kód, který posílá text z Arduina do PC
 
-```
+```Arduino
 void setup() {
   Serial.begin(9600);
 }
@@ -41,7 +41,7 @@ void loop() {
 
 Napište kód, který přijmá znak `0` nebo `1` z PC a na základě něc rozsvítí/zhasne LED
 
-```
+```Arduino
 #define LED 13
 
 void setup() {
@@ -85,6 +85,8 @@ Napište kód, který bude blikat 3 LED s každou v jiném intervalu
 ## Stavový automat
 
 ### Trocha teorie
+
+- Konečný stavový automat (FSM)
 
 #### Semafor
 

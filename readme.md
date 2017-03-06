@@ -10,8 +10,8 @@ V tomto repositáři najdete materiály k jednotlivým lekcím **[Arduino ahadem
 
 První lekce začíná _27. 2. 2017_.
 
- - Lekce 1 - Úvod, blikání LED, semafor
- - Lekce 2 - Sériová komunikace, semafor jako stavový automat
+ - [Lekce 1](lekce/lekce01/) - Úvod, blikání LED, semafor
+ - [Lekce 2](lekce/lekce02/) - Sériová komunikace, semafor jako stavový automat
  - Lekce 3 - PWM, RGB LED 
  - Lekce 4 - Display jednoduše, Měření světla, Teploměr
  - Lekce 5 - Display podrobně (I2C)
