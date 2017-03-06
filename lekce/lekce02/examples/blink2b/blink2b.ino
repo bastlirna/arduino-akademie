@@ -16,29 +16,9 @@ void setupLed(byte pin) {
 }
 
 void loop() {
-  /*
-  if (millis() - lastG > 500) {
-    invert(LED_G);
-    lastG = millis();
-  }
-
-  if (millis() - lastR > 333) {
-    invert(LED_R);
-    lastR = millis();
-  }
-
-  if (millis() - lastO > 200) {
-    invert(LED_O);
-    lastO = millis();
-  }*/
-
   blinkLoop(LED_G, 523, &lastG);
   blinkLoop(LED_O, 333, &lastO);
   blinkLoop(LED_R, 123, &lastR);
-}
-
-void invert(byte pin){
-  digitalWrite(pin, ! digitalRead(pin));
 }
 
 void blinkLoop(byte pin, unsigned int interval, unsigned long *last) {
@@ -48,3 +28,6 @@ void blinkLoop(byte pin, unsigned int interval, unsigned long *last) {
   }
 }
 
+void invert(byte pin){
+  digitalWrite(pin, ! digitalRead(pin));
+}
