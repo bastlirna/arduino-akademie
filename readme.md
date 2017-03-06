@@ -8,10 +8,8 @@ V tomto repositáři najdete materiály k jednotlivým lekcím **[Arduino ahadem
 
 ## Harmonogram
 
-První lekce začíná _27. 2. 2017_.
-
- - Lekce 1 - Úvod, blikání LED, semafor
- - Lekce 2 - Sériová komunikace, semafor jako stavový automat
+ - [Lekce 1](lekce/lekce01/) - Úvod, blikání LED, semafor
+ - [Lekce 2](lekce/lekce02/) - Sériová komunikace, semafor jako stavový automat
  - Lekce 3 - PWM, RGB LED 
  - Lekce 4 - Display jednoduše, Měření světla, Teploměr
  - Lekce 5 - Display podrobně (I2C)
@@ -25,13 +23,10 @@ První lekce začíná _27. 2. 2017_.
 
 - [Referenční manuál jazyka Wiring](https://www.arduino.cc/en/Reference/HomePage) (arduino.cc)
 - [Cheat sheet](https://github.com/bastlirna/arduino-akademie/raw/master/doc/Arduino Cheat Sheet.pdf)
-- [EduShiled - knihovna](https://github.com/maly/edushield)
 
 ### HW
 
-- [EduShiled - stručná přehled](https://github.com/maly/edushield/blob/master/extras/learning/course/cz/cheatsheet.md)
-- [EduShiled - kompletné schéma zapojení](https://github.com/bastlirna/arduino-akademie/raw/master/doc/EduShield_Schematic.pdf)
-- [EduShiled - web](https://www.edushield.cz/cs/)
+- **[EduShiled - stručný přehled](doc/edushiled.md)**
 - [Arduno Uno - schéma zapojení s CH340](https://raw.githubusercontent.com/bastlirna/arduino-akademie/master/doc/arduino-uno-ch340.jpg) (Arduino, které používáme)
 
 ## O Akademii

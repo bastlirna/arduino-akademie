@@ -15,7 +15,7 @@
 - Fullduplex vs halfduplex komunikace 
 - UART
 - Rychlost (boud rate)
-- RS-232, RS-482, RS-422, ...
+- RS-232, RS-485, RS-422, ...
 - Převodník USB - UART
 - Kde se UART používá (AT příkazy, ...)
 
@@ -26,7 +26,7 @@
 
 Napište kód, který posílá text z Arduina do PC
 
-```
+```Arduino
 void setup() {
   Serial.begin(9600);
 }
@@ -41,7 +41,7 @@ void loop() {
 
 Napište kód, který přijmá znak `0` nebo `1` z PC a na základě něc rozsvítí/zhasne LED
 
-```
+```Arduino
 #define LED 13
 
 void setup() {
@@ -69,6 +69,8 @@ void loop() {
 }
 ```
 
+Prozkoumejte další možnosti třídy [Stream](https://www.arduino.cc/en/Reference/Stream).
+
 ## Blokující a nebolkující kód  
 
 ### Trocha teorie
@@ -86,8 +88,14 @@ Napište kód, který bude blikat 3 LED s každou v jiném intervalu
 
 ### Trocha teorie
 
+- Konečný stavový automat (FSM)
+
 #### Semafor
 
 Napište semafor
+
+#### Na rámec
+
+http://boredzo.org/pointers/
 
 
