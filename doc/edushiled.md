@@ -4,24 +4,28 @@
 
 | Pin     | Funkce  | Poznámka |
 | ------- | ---- | ---- |
-| 2       | Tlačítko | Při stisku je `LOW` |
-| 3       | RTC SQW out | Výstup hodinového signálu z RTC |
-| 4       | --- |  |
-| 5       | RGB LED: G | Svítí v `LOW` |
-| 6       | RGB LED: B | Svítí v `LOW` |
-| 7       | --- |  |
+| 2       | [Tlačítko](#tlačítko) | Při stisku je `LOW` |
+| 3       | [RTC](#rtc) SQW out | Výstup hodinového signálu z RTC |
+| 4       | NC¹ |  |
+| 5       | [RGB LED: G](#rgb-led) | Svítí v `LOW` |
+| 6       | [RGB LED: B](#rgb-led) | Svítí v `LOW` |
+| 7       | NC¹ |  |
 | 8       | --- |  |
-| 9       | RGB LED: R | Svítí v `LOW` |
-| 10      | --- |  |
-| 11      | --- |  |
-| 12      | --- |  |
+| 9       | [RGB LED: R](#rgb-led) | Svítí v `LOW` |
+| 10      | NC¹ |  |
+| 11      | NC¹ |  |
+| 12      | NC¹ |  |
 | 13      | [Semafor: zelená](#led-semafor) | Svítí v `HIGH` |
-| 14 (A0) | fotorezistor |  |
-| 15 (A1) | termistor |  |
+| 14 (A0) | [Fotorezistor](#fotorezistror) |  |
+| 15 (A1) | [Termistor](#termistor) |  |
 | 16 (A2) | [Semafor: červená](#led-semafor) | Svítí v `HIGH` |
 | 17 (A3) | [Semafor: oranžová](#led-semafor) | Svítí v `HIGH` |
-| 18 (A4) | I2C SDA |  |
-| 19 (A5) | I2C SCK |  |
+| 18 (A4) | I2C² SDA |  |
+| 19 (A5) | I2C² SCK |  |
+
+¹ Not Connected. Tyto piny nejsou využity, jsou rezervovány pro [Ethernet Shield](https://www.arduino.cc/en/Main/ArduinoEthernetShieldV1)
+
+² Na I2C zběrnici jsou připojeny dvě priferie: Display (adresa **`0x27`**) a RTC (adresa **`0x68`**)
 
 ## Funkční bloky
 
@@ -80,7 +84,7 @@ Potřebné fce:
 - [analogRead](https://www.arduino.cc/en/Reference/AnalogRead)
 
 Odkazy:
-- [datasheet (PDV-P8001)](datasheets\PDV-P8001.pdf)
+- [datasheet (PDV-P8001)](https://github.com/bastlirna/arduino-akademie/raw/master/doc/datasheets/PDV-P8001.pdf)
 
 ### Termistor
 
@@ -92,8 +96,8 @@ Potřebné fce:
 - [analogRead](https://www.arduino.cc/en/Reference/AnalogRead)
 
 Odkazy:
-- [datasheet (MF52A2103J3470)](datasheets\cantherm_mf52_1.pdf)
-- [Převod odporu na stupně](http://www.cantherm.com/index.php/rt-characteristics))
+- [datasheet (MF52A2103J3470)](https://github.com/bastlirna/arduino-akademie/raw/master/doc/datasheets/cantherm_mf52_1.pdf)
+- [Převod odporu na stupně](http://www.cantherm.com/index.php/rt-characteristics)
 
 ### Display
 
@@ -108,7 +112,7 @@ Na desce je obvod hodin reálného času DS1307.
 I2C Adresa: `0x68`
 
 Odkazy:
-- [datasheet (DS1307)](datasheets\DS1307.pdf)
+- [datasheet (DS1307)](https://github.com/bastlirna/arduino-akademie/raw/master/doc/datasheets/DS1307.pdf)
 
 
 
