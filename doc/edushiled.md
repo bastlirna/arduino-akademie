@@ -10,7 +10,7 @@
 | 5       | [RGB LED: G](#rgb-led) | Svítí v `LOW` |
 | 6       | [RGB LED: B](#rgb-led) | Svítí v `LOW` |
 | 7       | NC¹ |  |
-| 8       | --- |  |
+| 8       | NC¹ |  |
 | 9       | [RGB LED: R](#rgb-led) | Svítí v `LOW` |
 | 10      | NC¹ |  |
 | 11      | NC¹ |  |
