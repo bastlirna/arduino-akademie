@@ -23,9 +23,9 @@
 | 18 (A4) | I2C² SDA |  |
 | 19 (A5) | I2C² SCK |  |
 
-¹ Not Connected. Tyto piny nejsou využity, jsou rezervovány pro [Ethernet Shield](https://www.arduino.cc/en/Main/ArduinoEthernetShieldV1)
+¹ Not Connected. Tyto piny nejsou využity, jsou rezervovány pro [Ethernet Shield](https://www.arduino.cc/en/Main/ArduinoEthernetShieldV1).
 
-² Na I2C zběrnici jsou připojeny dvě priferie: Display (adresa **`0x27`**) a RTC (adresa **`0x68`**)
+² Na I2C sběrnici jsou připojeny dvě periferie: [Display](#display) (adresa **`0x27`**) a [RTC](#rtc) (adresa **`0x68`**).
 
 ## Funkční bloky
 
@@ -36,16 +36,16 @@ Shield obsahuje 3 LED v barvách semaforu. LED jsou zapojeny proti zemi (**svít
 | Pin | Funkce   |
 | --- | --- |
 | 13 | Semafor: zelená |
-| 16 | Semafor: cervená |
+| 16 | Semafor: červená |
 | 17 | Semafor: oranžová |
 
-Potřebné fce:
+Užitečné funkce:
 - [pinMode](https://www.arduino.cc/en/Reference/PinMode)
 - [digitalWrite](https://www.arduino.cc/en/Reference/DigitalWrite)
 
 ### RGB LED 
 
-Deska obsahuje jednu RGB Led, který je pripojena na PWM výstupy Arduina. Jedná se o zapojení se společnou anodou (**svítí při LOW**). 
+Shield obsahuje jednu [RGB](https://en.wikipedia.org/wiki/RGB_color_model) Led, který je připojena na [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation) výstupy Arduina. Jedná se o zapojení se společnou anodou (**svítí při LOW**). 
 
 | Pin | Funkce   |
 | --- | --- |
@@ -53,34 +53,34 @@ Deska obsahuje jednu RGB Led, který je pripojena na PWM výstupy Arduina. Jedn�
 | 6   | RGB LED: B |
 | 9   | RGB LED: R |
 
-Potrebné fce:
+Užitečné funkce:
 - [pinMode](https://www.arduino.cc/en/Reference/PinMode)
 - [digitalWrite](https://www.arduino.cc/en/Reference/DigitalWrite)
-- [analogWrite](https://www.arduino.cc/en/Reference/AnalogWrite) (pro řízení jasu LED pomocí [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation))
+- [analogWrite](https://www.arduino.cc/en/Reference/AnalogWrite) (pro řízení jasu LED pomocí PWM)
 
 ### Tlačítko
 
-Deska obsahuje jedno tlacítko. Je pripojeno proti zemi (**při stisku je LOW**). 
+Shield obsahuje jedno tlačítko. Je připojeno proti zemi (**při stisku je LOW**). 
 
 | Pin | Funkce   |
 | --- | --- |
 | 2   | Tlačítko |
 
-Potřebné fce:
+Užitečné funkce:
 - [pinMode](https://www.arduino.cc/en/Reference/PinMode)
 - [digitalRead](https://www.arduino.cc/en/Reference/DigitalRead)
 - [attacheInterrupt](https://www.arduino.cc/en/Reference/AttachInterrupt) (pokud chcete využít [přerušení](https://en.wikipedia.org/wiki/Interrupt) procesoru)
 
 Užitečné knihovny:
-- [Bounce2](https://github.com/thomasfredericks/Bounce2) (pro řešení [zámitů](https://en.wikipedia.org/wiki/Switch#Contact_bounce))
+- [Bounce2](https://github.com/thomasfredericks/Bounce2) (pro řešení [zákmitů](https://en.wikipedia.org/wiki/Switch#Contact_bounce))
 
 ### Fotorezistror
 
 [Fotorezistor](https://cs.wikipedia.org/wiki/Fotorezistor) je zapojený jako [napěťový dělič](https://cs.wikipedia.org/wiki/D%C4%9Bli%C4%8D_nap%C4%9Bt%C3%AD) a připojený k pinu **A0**. 
 
-Fotorezistor je zapojený v horní polovině děliče, tzn. **víc světla ~ měnší odpor ~ vyšší napětí**.
+Fotorezistor je zapojený v horní polovině děliče, tzn. **víc světla ~ menší odpor ~ vyšší napětí**.
 
-Potřebné fce:
+Užitečné funkce:
 - [analogRead](https://www.arduino.cc/en/Reference/AnalogRead)
 
 Odkazy:
@@ -90,9 +90,9 @@ Odkazy:
 
 [Termistor](https://cs.wikipedia.org/wiki/Termistor) je zapojený jako [napěťový dělič](https://cs.wikipedia.org/wiki/D%C4%9Bli%C4%8D_nap%C4%9Bt%C3%AD) a připojený k pinu **A1**. 
 
-Termistor je zapojený v horní polovině děliče, tzn. **vyšší teplota ~ měnší odpor ~ vyšší napětí**.
+Termistor je zapojený v horní polovině děliče, tzn. **vyšší teplota ~ menší odpor ~ vyšší napětí**.
 
-Potřebné fce:
+Užitečné funkce:
 - [analogRead](https://www.arduino.cc/en/Reference/AnalogRead)
 
 Odkazy:
@@ -113,8 +113,3 @@ I2C Adresa: `0x68`
 
 Odkazy:
 - [datasheet (DS1307)](https://github.com/bastlirna/arduino-akademie/raw/master/doc/datasheets/DS1307.pdf)
-
-
-
-
-
