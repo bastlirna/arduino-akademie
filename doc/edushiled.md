@@ -113,3 +113,10 @@ I2C Adresa: `0x68`
 
 Odkazy:
 - [datasheet (DS1307)](https://github.com/bastlirna/arduino-akademie/raw/master/doc/datasheets/DS1307.pdf)
+
+
+## Odkazy
+
+- [Schéma zapojení](https://github.com/bastlirna/arduino-akademie/raw/master/doc/EduShield_Schematic.pdf)
+- [EduShiled.cz](https://www.edushield.cz/cs/)
+- [Knihovna pro EduShiled](https://github.com/maly/edushield)
