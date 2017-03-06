@@ -2,6 +2,7 @@
 
 ## Osnova
 
+- Odkaz na materiály, nějaké otázky z minula?
 - Sériová komunikace
 - Neblokující programování 
 - Stavový automat
@@ -72,6 +73,6 @@ Napište semafor
 
 Řešení pomocí funkcí založené na [ukazatelích na funkce](http://boredzo.org/pointers/).
 
-[Řešení](examples/states2/states2.ino)
+[Řešení](examples/states2/state
 
 
