@@ -2,7 +2,7 @@
 
 ## Osnova
 
-- Seriová komunikace
+- Sériová komunikace
 - Neblokující programování 
 - Stavový automat
 
@@ -10,8 +10,8 @@
 
 ### Trocha teorie
 
-- Seriova vs Paraelni komunikace
-- Synchroni vs Asynchroni komunikace
+- Seriova vs paralelní komunikace
+- Synchroni vs asynchroni komunikace
 - Fullduplex vs halfduplex komunikace 
 - UART
 - Rychlost (boud rate)
@@ -19,10 +19,7 @@
 - Převodník USB - UART
 - Kde se UART používá (AT příkazy, ...)
 
-
-### Příklady
-
-#### Kod hello world
+### Úkol: Hello World
 
 Napište kód, který posílá text z Arduina do PC
 
@@ -37,41 +34,15 @@ void loop() {
 }
 ```
 
-#### Prijmuti znaku (zkouska kodu)
+### Úkol: Přijmutí znaku
 
-Napište kód, který přijmá znak `0` nebo `1` z PC a na základě něc rozsvítí/zhasne LED
+Napište kód, který přijme znak `0` nebo `1` z PC a na základě něj rozsvítí/zhasne LED
 
-```Arduino
-#define LED 13
-
-void setup() {
-  pinMode(LED, OUTPUT);
-  Serial.begin(9600);
-  Serial.println("Send: 1 ... ON, 0 ... OFF");
-}
-
-void loop() {
-  if (Serial.available() > 0) {
-    char c = Serial.read();
-    switch (c) {
-      case '1':
-        digitalWrite(LED, HIGH);
-        Serial.println("ON");
-        break;
-      case '0':
-        digitalWrite(LED, LOW);
-        Serial.println("OFF");
-        break;
-      default:
-        Serial.println("Unknown command");
-    }
-  }
-}
-```
+[Řešení](examples/serial_read/serial_read.ino)
 
 Prozkoumejte další možnosti třídy [Stream](https://www.arduino.cc/en/Reference/Stream).
 
-## Blokující a nebolkující kód  
+## Blokující a neblokující kód  
 
 ### Trocha teorie
 
@@ -79,10 +50,11 @@ Prozkoumejte další možnosti třídy [Stream](https://www.arduino.cc/en/Refere
 - Multitasking
 - Blokující vs neblokující fce.
 
-#### Blikání více LED
+### Úkol: Blikání více LED
 
 Napište kód, který bude blikat 3 LED s každou v jiném intervalu
 
+[Řešení](examples/blink2/blink2.ino)
 
 ## Stavový automat
 
@@ -90,12 +62,16 @@ Napište kód, který bude blikat 3 LED s každou v jiném intervalu
 
 - Konečný stavový automat (FSM)
 
-#### Semafor
+### Úkol: Semafor
 
 Napište semafor
 
+[Řešení](examples/states/states.ino)
+
 #### Na rámec
 
-http://boredzo.org/pointers/
+Řešení pomocí funkcí založené na [ukazatelích na funkce](http://boredzo.org/pointers/).
+
+[Řešení](examples/states2/states2.ino)
 
 
