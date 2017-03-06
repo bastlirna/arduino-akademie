@@ -11,19 +11,19 @@
 | 2       | [Tlačítko](#tlačítko) | Při stisku je `LOW` |
 | 3       | [RTC](#rtc) SQW out | Výstup hodinového signálu z RTC |
 | 4       | NC¹ |  |
-| 5       | [RGB LED: G](#rgb-led) | Svítí v `LOW` |
-| 6       | [RGB LED: B](#rgb-led) | Svítí v `LOW` |
+| 5       | [RGB LED](#rgb-led) Green | Svítí v `LOW` |
+| 6       | [RGB LED](#rgb-led) Blue | Svítí v `LOW` |
 | 7       | NC¹ |  |
 | 8       | NC¹ |  |
-| 9       | [RGB LED: R](#rgb-led) | Svítí v `LOW` |
+| 9       | [RGB LED](#rgb-led) Red | Svítí v `LOW` |
 | 10      | NC¹ |  |
 | 11      | NC¹ |  |
 | 12      | NC¹ |  |
-| 13      | [Semafor: zelená](#led-semafor) | Svítí v `HIGH` |
+| 13      | [Semafor](#led-semafor) zelená | Svítí v `HIGH` |
 | 14 (A0) | [Fotorezistor](#fotorezistror) |  |
 | 15 (A1) | [Termistor](#termistor) |  |
-| 16 (A2) | [Semafor: červená](#led-semafor) | Svítí v `HIGH` |
-| 17 (A3) | [Semafor: oranžová](#led-semafor) | Svítí v `HIGH` |
+| 16 (A2) | [Semafor](#led-semafor) červená | Svítí v `HIGH` |
+| 17 (A3) | [Semafor](#led-semafor) oranžová | Svítí v `HIGH` |
 | 18 (A4) | I2C² SDA |  |
 | 19 (A5) | I2C² SCK |  |
 
