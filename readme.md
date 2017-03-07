@@ -17,6 +17,8 @@ V tomto repositáři najdete materiály k jednotlivým lekcím **[Arduino ahadem
  - Lekce 7 - Rezerva
  - Lekce 8 - Rezerva
 
+U každé lekce najdete typicky dva podadresáře: **`example`** (vzorová řešení úloh, případně příklady nad rámec lekce) a **`work`** (kód který společně napíšeme na lekci, tak abyste si jej mohli později projít v klidu domova).
+
 ## Materiály
 
 ### SW
