@@ -39,7 +39,7 @@ void loop() {
 
 Napište kód, který přijme znak `0` nebo `1` z PC a na základě něj rozsvítí/zhasne LED
 
-[Řešení](examples/serial_read/serial_read.ino)
+[Ukázka řešení](examples/serial_read/serial_read.ino)
 
 Prozkoumejte další možnosti třídy [Stream](https://www.arduino.cc/en/Reference/Stream).
 
@@ -55,7 +55,7 @@ Prozkoumejte další možnosti třídy [Stream](https://www.arduino.cc/en/Refere
 
 Napište kód, který bude blikat 3 LED s každou v jiném intervalu
 
-[Řešení](examples/blink2/blink2.ino)
+**[Řešení napsané během hodiny](work/blink/blink.ino)** | [Řešení](examples/blink2/blink2.ino)
 
 ## Stavový automat
 
@@ -67,12 +67,12 @@ Napište kód, který bude blikat 3 LED s každou v jiném intervalu
 
 Napište semafor
 
-[Řešení](examples/states/states.ino)
+**[Řešení napsané během hodiny](work/semafor/semafor.ino)** | [Řešení](examples/states/states.ino)
 
 #### Na rámec
 
 Řešení pomocí funkcí založené na [ukazatelích na funkce](http://boredzo.org/pointers/).
 
-[Řešení](examples/states2/state
+[Řešení](examples/states2/state)
 
 
