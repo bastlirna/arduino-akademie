@@ -16,7 +16,7 @@
 - Fullduplex vs halfduplex komunikace 
 - UART
 - Rychlost (boud rate)
-- RS-232, RS-485, RS-422, ...
+- ASCII
 - Převodník USB - UART
 - Kde se UART používá (AT příkazy, ...)
 
