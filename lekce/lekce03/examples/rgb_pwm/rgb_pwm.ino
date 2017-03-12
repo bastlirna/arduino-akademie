@@ -39,15 +39,6 @@ Color brightnes(Color o, float f) {
 
 
 void loop () {
-  /*color(Red);
-  delay(1000);
-  color(brightnes(Green, 10));
-  delay(1000);
-  color(Blue);
-  delay(1000);
-*/
-
-
   for(int h = 0; h < 360; h+= 5) {
     Color c = hsv2rgb(h, 255, 255);
     color(c);

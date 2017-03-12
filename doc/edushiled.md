@@ -57,6 +57,12 @@ Shield obsahuje jednu [RGB](https://en.wikipedia.org/wiki/RGB_color_model) Led, 
 | 6   | RGB LED: B |
 | 9   | RGB LED: R |
 
+```Arduino
+#define RGB_R 9
+#define RGB_G 5
+#define RGB_B 6
+```
+
 Užitečné funkce:
 - [pinMode](https://www.arduino.cc/en/Reference/PinMode)
 - [digitalWrite](https://www.arduino.cc/en/Reference/DigitalWrite)

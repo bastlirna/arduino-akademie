@@ -10,7 +10,7 @@ V tomto repositáři najdete materiály k jednotlivým lekcím **[Arduino ahadem
 
  - [Lekce 1](lekce/lekce01/) - Úvod, blikání LED, semafor
  - [Lekce 2](lekce/lekce02/) - Sériová komunikace, semafor jako stavový automat
- - Lekce 3 - PWM, RGB LED 
+ - [Lekce 3](lekce/lekce03/) - PWM, RGB LED 
  - Lekce 4 - Display jednoduše, Měření světla, Teploměr
  - Lekce 5 - Display podrobně (I2C)
  - Lekce 6 - Hodiny reálného času, Práce s přerušením
@@ -30,6 +30,8 @@ U každé lekce najdete typicky dva podadresáře: **`example`** (vzorová řeš
 
 - **[EduShiled - stručný přehled](doc/edushiled.md)**
 - [Arduno Uno - schéma zapojení s CH340](https://raw.githubusercontent.com/bastlirna/arduino-akademie/master/doc/arduino-uno-ch340.jpg) (Arduino, které používáme)
+
+- [Zajímavé odkazy](odkazy.md)
 
 ## O Akademii
 
