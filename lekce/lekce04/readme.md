@@ -17,7 +17,7 @@
 void Display.number(unsigned int n);
 ```
 
-### Úkol: Zobrazte na display číslo arduina
+### Úkol: Zobrazte na display číslo z arduina
 
 ## Měření světla
 
@@ -28,7 +28,6 @@ int a = analogRead(A0);
 
 ### Úkol: Naměřit intensitu osvětlení a poslat po seriovce
 ### Úkol: Naměřit intensitu osvětlení a zobrazit na displej
-
 
 ## Teploměr
 
