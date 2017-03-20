@@ -14,7 +14,7 @@
 ```Arduino
 #include <edushield.h>
 
-void number(unsigned int n);
+void Display.number(unsigned int n);
 ```
 
 ### Úkol: Zobrazte na display číslo arduina
