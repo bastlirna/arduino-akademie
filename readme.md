@@ -12,7 +12,7 @@ V tomto repositáři najdete materiály k jednotlivým lekcím **[Arduino akadem
  - [Lekce 2](lekce/lekce02/) - Sériová komunikace, semafor jako stavový automat
  - [Lekce 3](lekce/lekce03/) - PWM, RGB LED 
  - [Lekce 4](lekce/lekce04/) - Display jednoduše, Měření světla, Teploměr
- - Lekce 5 - Display podrobně (I2C)
+ - [Lekce 5](lekce/lekce05/) - Display podrobně (I2C)
  - Lekce 6 - Hodiny reálného času, Práce s přerušením
  - Lekce 7 - Rezerva
  - Lekce 8 - Rezerva
