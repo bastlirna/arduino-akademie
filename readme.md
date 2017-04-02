@@ -13,7 +13,7 @@ V tomto repositáři najdete materiály k jednotlivým lekcím **[Arduino akadem
  - [Lekce 3](lekce/lekce03/) - PWM, RGB LED 
  - [Lekce 4](lekce/lekce04/) - Display jednoduše, Měření světla, Teploměr
  - [Lekce 5](lekce/lekce05/) - Display podrobně (I2C)
- - Lekce 6 - Hodiny reálného času, Práce s přerušením
+ - [Lekce 6](lekce/lekce06/) - Hodiny reálného času
  - Lekce 7 - Rezerva
  - Lekce 8 - Rezerva
 
@@ -30,7 +30,6 @@ U každé lekce najdete typicky dva podadresáře: **`example`** (vzorová řeš
 
 - **[EduShiled - stručný přehled](doc/edushiled.md)**
 - [Arduno Uno - schéma zapojení s CH340](https://raw.githubusercontent.com/bastlirna/arduino-akademie/master/doc/arduino-uno-ch340.jpg) (Arduino, které používáme)
-
 - [Zajímavé odkazy](odkazy.md)
 
 ## O Akademii

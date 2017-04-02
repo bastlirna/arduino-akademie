@@ -2,14 +2,14 @@
 
 ## Osnova
 
-- Otázky z minula?
-- Diskuze co dìlat v dalších lekcích? 
-- Binary a BCD reprezentace èísel
-- Hodiny reálného èasu (co a proè)
-- DS1307 + jak se ète datasheet
-- I2C ètení a zápis
+- OtÃ¡zky z minula?
+- Diskuze co dÄ›lat v dalÅ¡Ã­ch lekcÃ­ch? 
+- Binary a BCD reprezentace ÄÃ­sel
+- Hodiny reÃ¡lnÃ©ho Äasu (co a proÄ)
+- DS1307 + jak se Äte datasheet
+- I2C ÄtenÃ­ a zÃ¡pis
 
-## Úkol: Vypištì obsah pamìti RTC
+## Ãškol: VypiÅ¡tÄ› obsah pamÄ›ti RTC
 
 ```arduino
 #define ADDR 0x68
@@ -31,6 +31,6 @@ byte read_reg(byte addr) {
 }
 ```
 
-## Úkol: Nastavte èas RTC
+## Ãškol: Nastavte Äas RTC
 
-## Úkol: Naprogramujte hodiny
+## Ãškol: Naprogramujte hodiny
