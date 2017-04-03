@@ -1,4 +1,4 @@
-# Lekce 5
+# Lekce 6
 
 ## Osnova
 
