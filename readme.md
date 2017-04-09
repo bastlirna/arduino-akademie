@@ -14,7 +14,7 @@ V tomto repositáři najdete materiály k jednotlivým lekcím **[Arduino akadem
  - [Lekce 4](lekce/lekce04/) - Display jednoduše, Měření světla, Teploměr
  - [Lekce 5](lekce/lekce05/) - Display podrobně (I2C)
  - [Lekce 6](lekce/lekce06/) - Hodiny reálného času
- - Lekce 7 - Rezerva
+ - [Lekce 7](lekce/lekce07/) - Rezerva
  - Lekce 8 - Rezerva
 
 U každé lekce najdete typicky dva podadresáře: **`example`** (vzorová řešení úloh, případně příklady nad rámec lekce) a **`work`** (kód který společně napíšeme na lekci, tak abyste si jej mohli později projít v klidu domova).
