@@ -1,6 +1,6 @@
 # Arduino akademie 
 
-V tomto repositáři najdete materiály k jednotlivým lekcím **[Arduino akademie SH](http://arduino.siliconhill.cz/)** pro letní semestru 2016/17.
+V tomto repozitáři najdete materiály k jednotlivým lekcím **[Arduino akademie SH](http://arduino.siliconhill.cz/)** pro letní semestr 2016/17.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/bastlirna/arduino-akademie/master/.files/arduinosh-logo.png" alt="Arduino SH">
@@ -17,7 +17,7 @@ V tomto repositáři najdete materiály k jednotlivým lekcím **[Arduino akadem
  - [Lekce 7](lekce/lekce07/) - Rezerva
  - Lekce 8 - Rezerva
 
-U každé lekce najdete typicky dva podadresáře: **`example`** (vzorová řešení úloh, případně příklady nad rámec lekce) a **`work`** (kód který společně napíšeme na lekci, tak abyste si jej mohli později projít v klidu domova).
+U každé lekce najdete typicky dva podsložky : **`example`** (vzorová řešení úloh, případně příklady nad rámec lekce) a **`work`** (kód který společně napíšeme na lekci, tak abyste si jej mohli později projít v klidu domova).
 
 ## Materiály
 
